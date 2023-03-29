@@ -13,7 +13,7 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 for (let i = 0; i < names.length; i++) {
-       const smallName = names[i]+"je";
+       names[i] = names[i]+"je";
 }
 
 console.log(names);
